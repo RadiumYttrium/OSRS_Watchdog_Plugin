@@ -1,0 +1,6277 @@
+{
+  "type": "AlertGroup",
+  "alerts": [
+    {
+      "type": "SoundFiredAlert",
+      "soundID": 7531,
+      "enabled": true,
+      "name": "Ent egg dropped",
+      "debounceTime": 0,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "RequestFocus",
+          "forceFocus": true,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#46FFFFFF",
+          "flashMode": "FLASH",
+          "flashDuration": 0,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((P|p)(rif+)?\\s*(teak))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Pteaks",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Pteak - North-East Prifddinas, teaks - Spirit Tree 6 - Run East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Pteak Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pteak Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pteak Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((P|p)(rif+)?\\s*(mahog(any)?))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Pmahoganies",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Pmahog - North-East Prifddinas, mahoganies - Spirit Tree 6 - Run East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Pmahog Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pmahog Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pmahog Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((P|p)(rif+)?\\s*(mag(e|ic)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Pmagics",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Pmage - North of Prifddinas POH portal, magics - Con Cape 9 - Run North",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Pmage Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pmage Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pmage Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((N|n)(orth)?\\s*seer)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nseer",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nseer - North of Seers’ Village bank, maples - Seers’ Village tele - Run North",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nseer Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nseer Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nseer Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)(outh)?\\s*seer)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Sseer",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Sseer - South of Seers’ Village bank - Seers’ Village tele - Run South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Sseer Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sseer Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sseer Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)eer)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Seer",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Seers’ Village bank - Seers’ Village tele",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Seer Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Seer Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Seer Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((N|n)(orth)?\\s*mag(e|ic))|((R|r)ang(e|ing)?)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nmage",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nmage - North of Sorcerer's Tower, magics - Kandarin Headgear 4 > Combat Bracelet 4",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nmage Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nmage Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nmage Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)(outh)?\\s*mag(e|ic))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Smage",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Smage - South of Sorcerer's Tower, magics - Kandarin Headgear 4 - Run South West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Smage Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Smage Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Smage Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((W|w)(est)?\\s*(L|l)egend)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Wlegend",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Wlegend - West of Legends’ Guild, maples - Quest Cape > Kandarin Headgear 4",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Wlegend Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Wlegend Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Wlegend Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)(outh)?\\s*(L|l)egend)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Slegend",
+      "debounceTime": 0,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Slegend - South of Legends’ Guild, yews - Quest Cape > Fairy Ring BLR",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Slegend Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Slegend Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Slegend Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b(((X|x)erics?\\b)?(G|g)lade)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Glade",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Glade - Hosidius, magics - Xeric's Opt 1",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Glade Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Glade Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Glade Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b(((X|x)erics?\\b)?(H|h)eart)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Heart",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Heart - Kourend Castle, yews - Xeric’s talisman 4 / Kourend tele",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Heart Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Heart Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Heart Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b(((X|x)erics?\\b)?(L|l)ookout)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Lookout",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Lookout - North-West of Xeric’s Lookout, yews - Xeric’s Talisman 1 ",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Lookout Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lookout Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lookout Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((D|d)ray(nor)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Dray",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Dray - Draynor Village, willows - Diary Cape G > Glory 3",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Dray Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Dray Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Dray Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((R|r)ada(\\bw(est)?)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Rada w",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Rada w - West Kourend Woodland, yews - Rada Blessing Kourend Woodland - Run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Rada w Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rada w Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rada w Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((R|r)ada(\\be(ast)?)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Rada e",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Rada e - East Kourend Woodland, magics - Rada Blessing Kourend Woodland - Run East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Rada e Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rada e Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rada e Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((Z|z)alc(ano)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Zalc",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Zalc - Zalcano, yews - Eternal Teleport Crystal Prifddinas",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Zalc Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Zalc Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Zalc Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((E|e)dge)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Edge",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Edge - Edgeville, yews - Glory 1 - Run South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Edge Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Edge Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Edge Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((R|r)im(mington)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Rim",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Rim - North-West of Rimmington POH portal, yews - Con Cape 2 - Run North West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Rim Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rim Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rim Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((A|a)pe(\\batoll)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Ape",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ape - Ape Atoll, teaks - Ape Atoll Dungeon tele",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ape Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ape Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ape Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((L|l)*grave)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Lgrave",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Lgrave - Lumbridge Cemetery, yews - Diary Cape B > Lumbridge tele - Run East and South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Lgrave Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lgrave Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lgrave Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((L|l)umb(y|(R|r)idge)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Lumbridge",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Lumbridge, yews in the graveyard or west of the castle - Ask Chat about this location",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Lumbridge Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lumbridge Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lumbridge Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((G|g)e)|((V|v)*castle)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Ge",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ge - North-East of the Grand Exchange/North of Varrock Palace, yews - GE Teleport - Run East and then North",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ge Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ge Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ge Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((C|c)hurch)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Church",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Church - Seers’ Village church, yews - Seers’ Village tele > Diary Cape 5",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Church Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Church Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Church Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((M|m)yth)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Myth",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Myth - Myths’ Guild, magics - Mythical Cape - Run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Myth Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Myth Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Myth Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((S|s)oul)|((B|b)jp)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Souls",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Souls - West of Fairy Ring BJP, teaks - Fairy Ring BJP - Run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Souls Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Souls Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Souls Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((W|w)cg)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Wcg",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Wcg - North of Woodcutting Guild, yews - Skills Necklace 5 > Spirit Tree A - Run North then West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Wcg Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Wcg Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Wcg Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((B|b)attlefront)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Battlefront",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Battlefront - North-West of Battlefront, yews - Battlefront tele > Fairy Ring CIR - Run West from CIR",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Battlefront Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Battlefront Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Battlefront Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((B|b)otd3)|((S|s)hayzien)|((S|s)hay)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Shayzien - Botd3",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Shay - North of Graveyard of Heroes, yews - Kharedst’s Memoirs 3 / Book of the Dead 3 - Run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Shayzien - Botd3 Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Shayzien - Botd3 Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Shayzien - Botd3 Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((B|b)kp)|((C|c)w)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Cw",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Cw - South-West of Castle Wars, West of Fairy Ring BKP, teaks - Fairy Ring BKP",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Cw Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Cw Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Cw Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "(?i)^.*(?=.*\\b(arc|arceuus)\\b)(?=.*\\bents?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Arc",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Arc - Arceuus, magics - Kharedst’s Memoirs 5 / Book of the Dead 5",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Arc Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Arc Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Arc Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((C|c)ir)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Cir - Battlefront or Sw farms",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Battlefront or Sw farms - Ask Chat about this location",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Cir - Battlefront or Sw farms Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Cir - Battlefront or Sw farms Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Cir - Battlefront or Sw farms Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((C|c)hamp(ion)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Champions Guild",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 3892,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Champions Guild - Tele: Chronicle",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Champions Guild Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Champions Guild Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Champions Guild Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((C|c)orsair)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Corsair",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Corsair - Corsair Cove Resource Area, maples/yews - Spirit Tree 5 - Run North",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Corsair Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Corsair Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Corsair Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((B|b)arb)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Barb",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Barb - Barbarian Assault, oaks/willows - Games Necklace 5",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Barb Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Barb Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Barb Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((H|h)spirit)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Hspirit",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Hspirit - Hosidius Spirit Tree, yews - Spirit Tree A",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Hspirit Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Hspirit Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Hspirit Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((N|n)ieve)|((G|g)nome)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nieve",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nieve - Tree Gnome Stronghold Nieve/Steve, magics/yews - Slayer Ring 1 > Diary Cape F > Spirit Tree 2",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nieve Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nieve Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nieve Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((F|f)ally)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Fally",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Fally gate - South Falador entrance, yews - Ring of the Elements 1 > Ring of Wealth 3",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Fally Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Fally Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Fally Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((G|g)rotto)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Grotto",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Grotto - Otto’s Grotto, yews - Fishing Cape Otto’s Grotto",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Grotto Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Grotto Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Grotto Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((G|g)wennith)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Gwennith",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Gwennith - North of Prifddinas, maples",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Gwennith Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Gwennith Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Gwennith Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((N|n)cabbage)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Ncabbage",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ncabbage - North of South Falador cabbage field, yews -Explorer’s Ring > Spirit Tree 7",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ncabbage Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ncabbage Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ncabbage Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)cabbage)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Scabbage",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Scabbage - South of South Falador cabbage field, yews - Explorer’s Ring > Spirit Tree 7",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Scabbage Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Scabbage Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Scabbage Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((F|f)alo)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Falo",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Falo the Bard - Music Cape > Fairy Ring CJR and run South then West accross the bridge",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Falo Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Falo Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Falo Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((R|r)pines)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Rpines",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ask Chat about this location",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Rpines Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rpines Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Rpines Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)inc(lair)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Sinclair",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Sinclair Manison - Fairy Ring CJR - Run South East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Sinclair Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sinclair Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sinclair Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((P|p)ing)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Ping",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ask Chat about Ping location",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ping Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ping Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ping Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((((C|c)ath(erby)?)|((F|f)lax)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Flax",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Flax - South of Flax/Beehives, yews - Diary Cape 5 > Kandarin Headgear 4",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Flax Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Flax Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Flax Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)orc)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Sorc - Either Smage or Nmage",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ask Chat if it is Nmage or Smage",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Sorc - Either Smage or Nmage Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sorc - Either Smage or Nmage Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sorc - Either Smage or Nmage Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((L|l)umber)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Lumber",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Lumber - Lumberyard, yews - Ring of the Elements 3 > Lumberyard tele",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Lumber Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lumber Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Lumber Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((N|n)wseer)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nwseer",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 3892,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nwseer - North-West of Seers’ Village bank, willows - Seers’ Village tele",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nwseer Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nwseer Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nwseer Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((F|f)arm)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Sw farm",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Sw farm - South-West of Farming Guild, maples/oaks/willows/yews - Fairy Ring CIR > Skills Necklace 6 ",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Sw farm Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sw farm Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sw farm Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((H|h)os)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Sw hos",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Sw hos - South-West of Hosidius POH portal, yews - Con Cape 5",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Sw hos Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sw hos Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sw hos Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((P|p)has)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Phas",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Phas - South of Port Phasmatys, yews - Ectophial",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Phas Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Phas Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Phas Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((P|p)isc)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Pisc",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Pisc - directly South of Fairy Ring AKQ, yews - Fairy Ring AKQ",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Pisc Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pisc Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Pisc Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((S|s)arim)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Sarim",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Sarim - Port Sarim Spirit Tree, willows - Spirit Tree 7 > Explorer's Ring",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Sarim Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sarim Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Sarim Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((L|l)tree)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Ltree",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ltree patch - Lumbridge tree patch West of Lumbridge Castle, yews -  Diary Cape B > Glory 3",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ltree Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ltree Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ltree Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((C|c)am)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Cam",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Cam - South of Camelot Castle, maples - Camelot tele",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Cam Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Cam Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Cam Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((L|l)egend)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Legends Guild (West or South)",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ask chat if this is west or south legends",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Legends Guild (West or South) Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Legends Guild (West or South) Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Legends Guild (West or South) Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((Z|z)anaris)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Zanaris",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Zanaris - North of Zanaris Fairy Ring, yews - Fairy Ring-Zanaris",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Zanaris Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Zanaris Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Zanaris Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((N|n)*(Y|y)ak)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Yak",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Yak - Neitiznot, pines - Enchanted Lyre 3",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Yak Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Yak Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Yak Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((M|m)ta)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Mta",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Mta - Mage Training Arena, magics - Ring of the Elements 4 > Ring of Dueling 1",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Mta Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Mta Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Mta Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "(?i)^.*(?=.*\\b(north|n|nw|nwest)?ald(arin)?\\b)(?=.*\\bents?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nwald",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nwald - Aldarin NW, magics - Con Cape 6 - Run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nwald Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nwald Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nwald Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "(?i)^(?=.*\\b(mist(rock)?)\\b)(?=.*\\bents?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Mist",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Mist - Mistrock, yews, maples - Con Cape 6 - Run South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Mist Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Mist Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Mist Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "(?i)^.*(?=.*\\b(gorge)\\b)(?=.*\\bents?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Gorge",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Gorge - Quetzacalli Gorge, yews - Quetzal Whistle - Run North",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Gorge Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Gorge Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Gorge Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "(?i)^(?=.*\\b(oasis)\\b)(?=.*\\bents?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Oasis",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Oasis - Locus Oasis, teaks - Fairy ring: AJP - Run East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Oasis Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Oasis Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Oasis Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=.*\\b[Nn]emus\\b(?!\\s*(nw|south|s)\\b))(?=.*\\b[Ee]nt\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Quick Tele: Pendant of Ates (6, Nemus Retreat) run North > Quetzal (Quetzacalli Gorge), follow Western Mountain Guide > West of Fairy Ring - AIS",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "(?i)^.*(?=.*\\b(nemus)\\b)(?=.*\\b[Ss](outh)\\b)(?=.*\\b(Eents?)\\b).*\n",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus South",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nemus Retreat South- Quick Tele: Pendant of Ates (6, Nemus Retreat) > Southwest of Fairy Ring - AIS > Quetzal (Quetzacalli Gorge), follow Western Mountain Guide then run South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus South Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus South Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus South Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b([Nn]orth|N|n|[Ee]ast|E|e|[Ss]outh|S|s|[Ww]est|W|w)\\b)(?=.*\\b(V|v)ale?s?\\b)(?=.*\\b(E|e)nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Vale",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "By the Auburnvale Quetzal - Quetzal (Auburnvale) > Northwest of Fairy Ring - AIS, at the Quetz.",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Vale Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b(K|k)ast(ori)?s?\\b(?!\\s+(n|N|north|North|w|W|West|west)\\b)).*(?=.*\\b(E|e)nt)s?\\b.*$",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Kastori",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Quetzal (Kastori) > Pendant of Ates (5, Kastori) run sw",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Kastori Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Kastori Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Kastori Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b[Vv]ale\\b)(?=.*\\b[Aa]is\\b(?!\\s*[Ww]est))(?=.*\\b[Ee](ast)?\\b)(?=.*\\b[Ee]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "AIS E",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ais E - East of Fairy Ring - AIS > Southeast of Quetzal (Auburnvale) across bridge",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ais E Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ais E Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ais E Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b[E|e]ast\\b)(?=.*\\b[A|a]is\\b)(?=.*\\b[S|s]w?\\b)(?=.*\\b[E|e]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "AIS SW",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Ais SW - Southwest of Fairy Ring - AIS > Pendant of Ates (6, Nemus) run East across bridge > South of Quetzal (Auburnvale) across bridge",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Ais SW Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ais SW Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Ais SW Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((T|t)eklan))s?(\\b|$).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Teklan",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Southeast of Tal Teklan in Varlamore - \tQuetzal (Tal Teklan) run East then South > Pendant of Ates (5, Kastori) run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Teklan Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Teklan Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Teklan Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=.*\\b([Kk]astori)\\b(?!\\s*[Ww]est))(?=.*\\b([Nn](orth)?)\\b)(?=.*\\b([Ee]nts?)\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Kastori N",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "North of Quetzal (Kastori) > Pendant of Ates (5, Kastori) run sw",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Kastori N Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Kastori N Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Kastori N Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=.*\\b([Kk]astori)\\b(?!\\s*[Nn]orth))(?=.*\\b([Ww](est)?)\\b)(?=.*\\b([Ee]nts?)\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Kastori W",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "West of Quetzal (Kastori) > Pendant of Ates (5, Kastori) run far sw",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Kastori W Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Kastori W Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Kastori W Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b[Nn]emus\\b)(?=.*\\b(([Nn]orth\\s*[Ww]est)|([Nn][Ww]))\\b)(?=.*\\b[Ee]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus nw",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Northwest of Nemus Retreat outside the gates of Auburnvale (Varlamore) - Pendant of Ates (6, Nemus Retreat) run North > Quetzal (Quetzacalli Gorge) follow Western Mountain Guide then run Northwest",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus NW Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus NW Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus NW Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?:(?=.*\\b[Aa]is\\b)(?=.*\\b([Nn]orth|[Nn])\\b)|(?=.*\\b[Vv]ale\\b)(?=.*\\b([Ee]ast|[Ee])\\b))(?!.*\\b([Ss]outh|[Ss]|[Ww]est|[Ww])\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Vale e/ Ais n",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Vale e/ Ais n - Trees East of Auburnvale (Varlamore) Bank - Quetzal (Auburnvale) run East > North of Fairy Ring - AIS",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Vale e/ Ais n:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale e/ Ais n:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale e/ Ais n:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b([N|n](orth)?|[W|w](est)?)\\b)(?=.*\\b[V|v]ale\\b)(?=.*\\b[S|s](outh)?\\b)(?=.*\\b[E|e]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Vale s",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Trees South of Auburnvale (Varlamore) Pub/Anvil/Staff shop - Quetzal (Auburnvale) run South > Northwest of Fairy Ring - AIS, South of Quetz",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Vale s Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale s Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale s Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b([N|n](orth)?|[S|s](outh)?)\\b)(?=.*\\b[V|v]ale\\b)(?=.*\\b[W|w](est)?\\b)(?=.*\\b[E|e]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Vale w",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Trees West of Auburnvale (Varlamore) General store/Tannery - Quetzal (Auburnvale) run West > Northwest of Fairy Ring - AIS, West of Quetz",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Vale w Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale w Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale w Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=.*\\b[Tt]lati\\b(?!\\s*(?:[Nn][Ee]\\b|[Nn]ortheast\\b|[Ee]ast\\b))|(?=.*\\b[Tt]lati\\s*(?:[Nn]\\b|[Nn]orth\\b)))(?=.*\\b[Ee]nt\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Tlati n",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "North section of Tlati Rainforest (Varlamore) - Pendant of Ates (5, Kastori) North across bridge > Quetzal (Tal Teklan) run North then East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati n Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati n Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b[Tt]lati\\b)(?=.*\\b(([Nn]orth\\s*[Ee]ast)|([Nn][Ee]))\\b)(?=.*\\b[Ee]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Tlati ne",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Northeast section of Tlati Rainforest (Varlamore) - Pendant of Ates (5, Kastori) North across bridge then East > Quetzal (Tal Teklan) run North then far East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Tlati ne Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati ne Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati ne Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    }
+  ],
+  "enabled": true,
+  "name": "Ents",
+  "debounceTime": 0,
+  "randomNotifications": false
+}
