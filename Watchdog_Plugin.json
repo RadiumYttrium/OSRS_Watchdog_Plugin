@@ -265,6 +265,84 @@
     },
     {
       "type": "PlayerChatAlert",
+      "message": "^(?!.\b([Ss](outh)?|[Ee](ast)?|[Ww](est)?)\b)(?=.\b[Vv]ale\b)(?=.\b[Nn](orth)?\b)(?=.\b[Ee]nts?\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Vale n",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "North of Auburnvale Sawmill/Furnace - Quetzal (Auburnvale) run North > Northwest of Fairy Ring - AIS, North of Quetz",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Vale n Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale n Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale n Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
       "message": "^.*(?=.*\\b((N|n)(orth)?\\s*seer)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
