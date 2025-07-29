@@ -5101,318 +5101,6 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^(?=.*\\b[Nn]emus\\b(?!\\s*(nw|south|s)\\b))(?=.*\\b[Ee]nt\\b).*",
-      "regexEnabled": true,
-      "playerChatType": "ANY",
-      "enabled": true,
-      "name": "Nemus",
-      "debounceTime": 60000,
-      "randomNotifications": false,
-      "notifications": [
-        {
-          "type": "SoundEffect",
-          "soundID": 1516,
-          "gain": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "ScreenFlash",
-          "color": "#45075613",
-          "flashMode": "FLASH",
-          "flashDuration": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "GameMessage",
-          "message": "Quick Tele: Pendant of Ates (6, Nemus Retreat) run North > Quetzal (Quetzacalli Gorge), follow Western Mountain Guide > West of Fairy Ring - AIS",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#92075613",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 58,
-          "imagePath": "",
-          "message": "Nemus Ent:  <2 Minutes",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FFDD00",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Nemus Ent:  <1 Minute",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 58000
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FF0000",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Nemus Ent:  Almost Time to Go!",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 30000
-        }
-      ]
-    },
-    {
-      "type": "PlayerChatAlert",
-      "message": "(?i)^.*(?=.*\\b(nemus)\\b)(?=.*\\b[Ss](outh)\\b)(?=.*\\b(Eents?)\\b).*\n",
-      "regexEnabled": true,
-      "playerChatType": "ANY",
-      "enabled": true,
-      "name": "Nemus South",
-      "debounceTime": 60000,
-      "randomNotifications": false,
-      "notifications": [
-        {
-          "type": "SoundEffect",
-          "soundID": 1516,
-          "gain": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "ScreenFlash",
-          "color": "#45075613",
-          "flashMode": "FLASH",
-          "flashDuration": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "GameMessage",
-          "message": "Nemus Retreat South- Quick Tele: Pendant of Ates (6, Nemus Retreat) > Southwest of Fairy Ring - AIS > Quetzal (Quetzacalli Gorge), follow Western Mountain Guide then run South",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#92075613",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 58,
-          "imagePath": "",
-          "message": "Nemus South Ent:  <2 Minutes",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FFDD00",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Nemus South Ent:  <1 Minute",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 58000
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FF0000",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Nemus South Ent:  Almost Time to Go!",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 30000
-        }
-      ]
-    },
-    {
-      "type": "PlayerChatAlert",
-      "message": "^(?!.*\\b([Nn]orth|N|n|[Ee]ast|E|e|[Ss]outh|S|s|[Ww]est|W|w)\\b)(?=.*\\b(V|v)ale?s?\\b)(?=.*\\b(E|e)nts?\\b).*",
-      "regexEnabled": true,
-      "playerChatType": "ANY",
-      "enabled": true,
-      "name": "Vale",
-      "debounceTime": 60000,
-      "randomNotifications": false,
-      "notifications": [
-        {
-          "type": "SoundEffect",
-          "soundID": 1516,
-          "gain": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "ScreenFlash",
-          "color": "#45075613",
-          "flashMode": "FLASH",
-          "flashDuration": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "GameMessage",
-          "message": "By the Auburnvale Quetzal - Quetzal (Auburnvale) > Northwest of Fairy Ring - AIS, at the Quetz.",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#92075613",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 58,
-          "imagePath": "",
-          "message": "Vale Ent:  <2 Minutes",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FFDD00",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Vale Ent:  <1 Minute",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 58000
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FF0000",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Vale Ent:  Almost Time to Go!",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 30000
-        }
-      ]
-    },
-    {
-      "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b(K|k)ast(ori)?s?\\b(?!\\s+(n|N|north|North|w|W|West|west)\\b)).*(?=.*\\b(E|e)nt)s?\\b.*$",
-      "regexEnabled": true,
-      "playerChatType": "ANY",
-      "enabled": true,
-      "name": "Kastori",
-      "debounceTime": 60000,
-      "randomNotifications": false,
-      "notifications": [
-        {
-          "type": "SoundEffect",
-          "soundID": 1516,
-          "gain": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "ScreenFlash",
-          "color": "#45075613",
-          "flashMode": "FLASH",
-          "flashDuration": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "GameMessage",
-          "message": "Quetzal (Kastori) > Pendant of Ates (5, Kastori) run sw",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#92075613",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 58,
-          "imagePath": "",
-          "message": "Kastori Ent:  <2 Minutes",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FFDD00",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Kastori Ent:  <1 Minute",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 58000
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FF0000",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Kastori Ent:  Almost Time to Go!",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 30000
-        }
-      ]
-    },
-    {
-      "type": "PlayerChatAlert",
       "message": "^(?!.*\\b[Vv]ale\\b)(?=.*\\b[Aa]is\\b(?!\\s*[Ww]est))(?=.*\\b[Ee](ast)?\\b)(?=.*\\b[Ee]nts?\\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
@@ -5569,11 +5257,11 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((T|t)eklan))s?(\\b|$).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^.*(?=.*\\b(K|k)ast(ori)?s?\\b(?!\\s+(n|N|north|North|w|W|West|west)\\b)).*(?=.*\\b(E|e)nt)s?\\b.*$",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
-      "name": "Teklan",
+      "name": "Kastori",
       "debounceTime": 60000,
       "randomNotifications": false,
       "notifications": [
@@ -5598,7 +5286,7 @@
         },
         {
           "type": "GameMessage",
-          "message": "Southeast of Tal Teklan in Varlamore - \tQuetzal (Tal Teklan) run East then South > Pendant of Ates (5, Kastori) run West",
+          "message": "Quetzal (Kastori) > Pendant of Ates (5, Kastori) run sw",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -5611,7 +5299,7 @@
           "sticky": false,
           "timeToLive": 58,
           "imagePath": "",
-          "message": "Teklan Ent:  <2 Minutes",
+          "message": "Kastori Ent:  <2 Minutes",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -5624,7 +5312,7 @@
           "sticky": false,
           "timeToLive": 30,
           "imagePath": "",
-          "message": "Teklan Ent:  <1 Minute",
+          "message": "Kastori Ent:  <1 Minute",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -5637,7 +5325,7 @@
           "sticky": false,
           "timeToLive": 30,
           "imagePath": "",
-          "message": "Teklan Ent:  Almost Time to Go!",
+          "message": "Kastori Ent:  Almost Time to Go!",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -5803,6 +5491,84 @@
     },
     {
       "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b(?:[Ee]|[Ee]ast|[Ww]|[Ww]est|[Nn]|[Nn]orth|[Ss]|[Ss]outh|[Nn][Ee]|[Nn][Ww]|[Ss][Ee]|[Ss][Ww])\\b\\s+\\b[Nn]emus\\b)(?!.*\\b[Nn]emus\\b\\s+\\b(?:[Ee]|[Ee]ast|[Ww]|[Ww]est|[Nn]|[Nn]orth|[Ss]|[Ss]outh|[Nn][Ee]|[Nn][Ww]|[Ss][Ee]|[Ss][Ww])\\b)(?=.*\\b[Nn]emus\\b)(?=.*\\b[Ee]nt\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Quick Tele: Pendant of Ates (6, Nemus Retreat) run North > Quetzal (Quetzacalli Gorge), follow Western Mountain Guide > West of Fairy Ring - AIS",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
       "message": "^.*(?=.*\\b[Nn]emus\\b)(?=.*\\b(([Nn]orth\\s*[Ww]est)|([Nn][Ww]))\\b)(?=.*\\b[Ee]nts?\\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
@@ -5872,6 +5638,552 @@
           "timeToLive": 30,
           "imagePath": "",
           "message": "Nemus NW Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b[V|v]ale\\b)(?!.*\\b(?:[S|s](?:outh(?:west)?|[W|w]|est)?)\\b)(?!.*\\b[A|a]is\\b)(?=.*\\b[E|e]nt\\b)(?:(?=.*\\b[E|e]nemus\\b)|(?=.*\\b[N|n]emus\\b)(?=.*\\b[E|e](ast|)\\b)).*\\s*$",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus e",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Just East of the Nemus Retreat, on the west side of the river - Pendant of Ates (6, Nemus Retreat) > Southwest of Fairy Ring - AIS",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus e Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus e Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus e Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=(?:.*\\b[Ss]\\s?[Nn]emus\\b|(?=.*\\b[Nn]emus\\b)(?=.*\\b[Ss](outh)?\\b)))(?=.*\\b[Ee]nt(s)?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus s",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Nemus Retreat South- Quick Tele: Pendant of Ates (6, Nemus Retreat) > Southwest of Fairy Ring - AIS > Quetzal (Quetzacalli Gorge), follow Western Mountain Guide then run South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus s Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus s Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus s Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=.*\\b[Ee]nts?\\b)(?=.*(?:\\b[Nn]emus\\b|[Ss][Ww][Nn]emus))(?=.*\\b(?:[Ss][Ww]|[Ss]outh[Ww]est|[Ss]outh\\s+[Ww]est|[Ss]\\s+[Ww])\\b|[Ss][Ww][Nn]emus).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Nemus sw",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Southwest of Nemus Retreat in Varlamore - \tPendant of Ates (6, Nemus Retreat) > Quetzal (Quetzacalli Gorge) follow Western Mountain Guide then run South",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus sw Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus sw Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Nemus sw Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b((T|t)eklan))s?(\\b|$).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Teklan",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Southeast of Tal Teklan in Varlamore - \tQuetzal (Tal Teklan) run East then South > Pendant of Ates (5, Kastori) run West",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Teklan Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Teklan Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Teklan Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?=.*\\b[Tt]lati\\b(?!\\s*(?:[Nn][Ee]\\b|[Nn]ortheast\\b|[Ee]ast\\b))|(?=.*\\b[Tt]lati\\s*(?:[Nn]\\b|[Nn]orth\\b)))(?=.*\\b[Ee]nt\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Tlati n",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "North section of Tlati Rainforest (Varlamore) - Pendant of Ates (5, Kastori) North across bridge > Quetzal (Tal Teklan) run North then East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Nemus Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati n Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati n Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^.*(?=.*\\b[Tt]lati\\b)(?=.*\\b(([Nn]orth\\s*[Ee]ast)|([Nn][Ee]))\\b)(?=.*\\b[Ee]nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Tlati ne",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "Northeast section of Tlati Rainforest (Varlamore) - Pendant of Ates (5, Kastori) North across bridge then East > Quetzal (Tal Teklan) run North then far East",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Tlati ne Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati ne Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Tlati ne Ent:  Almost Time to Go!",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 30000
+        }
+      ]
+    },
+    {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\\b([Nn]orth|N|n|[Ee]ast|E|e|[Ss]outh|S|s|[Ww]est|W|w)\\b)(?=.*\\b(V|v)ale?s?\\b)(?=.*\\b(E|e)nts?\\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Vale",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "GameMessage",
+          "message": "By the Auburnvale Quetzal - Quetzal (Auburnvale) > Northwest of Fairy Ring - AIS, at the Quetz.",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#92075613",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 58,
+          "imagePath": "",
+          "message": "Vale Ent:  <2 Minutes",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FFDD00",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale Ent:  <1 Minute",
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 58000
+        },
+        {
+          "type": "Overlay",
+          "color": "#46FF0000",
+          "textColor": "#FFFFFFFF",
+          "sticky": false,
+          "timeToLive": 30,
+          "imagePath": "",
+          "message": "Vale Ent:  Almost Time to Go!",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -6115,11 +6427,11 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^(?=.*\\b[Tt]lati\\b(?!\\s*(?:[Nn][Ee]\\b|[Nn]ortheast\\b|[Ee]ast\\b))|(?=.*\\b[Tt]lati\\s*(?:[Nn]\\b|[Nn]orth\\b)))(?=.*\\b[Ee]nt\\b).*",
+      "message": "^.*(?=.*\\b((R|r)(alos+)?\\s*(mag(e|ic)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
-      "name": "Tlati n",
+      "name": "Ralos mage",
       "debounceTime": 60000,
       "randomNotifications": false,
       "notifications": [
@@ -6144,7 +6456,7 @@
         },
         {
           "type": "GameMessage",
-          "message": "North section of Tlati Rainforest (Varlamore) - Pendant of Ates (5, Kastori) North across bridge > Quetzal (Tal Teklan) run North then East",
+          "message": "West of Ralos' Rise (Varlamore) - \tQuetzal (Cam Torum) run South off the mountain then far Northwest",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -6157,7 +6469,7 @@
           "sticky": false,
           "timeToLive": 58,
           "imagePath": "",
-          "message": "Nemus Ent:  <2 Minutes",
+          "message": "Ralos mage Ent:  <2 Minutes",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -6170,7 +6482,7 @@
           "sticky": false,
           "timeToLive": 30,
           "imagePath": "",
-          "message": "Tlati n Ent:  <1 Minute",
+          "message": "Ralos mage Ent:  <1 Minute",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
@@ -6183,85 +6495,7 @@
           "sticky": false,
           "timeToLive": 30,
           "imagePath": "",
-          "message": "Tlati n Ent:  Almost Time to Go!",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 30000
-        }
-      ]
-    },
-    {
-      "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b[Tt]lati\\b)(?=.*\\b(([Nn]orth\\s*[Ee]ast)|([Nn][Ee]))\\b)(?=.*\\b[Ee]nts?\\b).*",
-      "regexEnabled": true,
-      "playerChatType": "ANY",
-      "enabled": true,
-      "name": "Tlati ne",
-      "debounceTime": 60000,
-      "randomNotifications": false,
-      "notifications": [
-        {
-          "type": "SoundEffect",
-          "soundID": 1516,
-          "gain": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "ScreenFlash",
-          "color": "#45075613",
-          "flashMode": "FLASH",
-          "flashDuration": 10,
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "GameMessage",
-          "message": "Northeast section of Tlati Rainforest (Varlamore) - Pendant of Ates (5, Kastori) North across bridge then East > Quetzal (Tal Teklan) run North then far East",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#92075613",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 58,
-          "imagePath": "",
-          "message": "Tlati ne Ent:  <2 Minutes",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 0
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FFDD00",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Tlati ne Ent:  <1 Minute",
-          "fireWhenFocused": true,
-          "fireWhenAFK": false,
-          "fireWhenAFKForSeconds": 5,
-          "delayMilliseconds": 58000
-        },
-        {
-          "type": "Overlay",
-          "color": "#46FF0000",
-          "textColor": "#FFFFFFFF",
-          "sticky": false,
-          "timeToLive": 30,
-          "imagePath": "",
-          "message": "Tlati ne Ent:  Almost Time to Go!",
+          "message": "Ralos mage Ent:  Almost Time to Go!",
           "fireWhenFocused": true,
           "fireWhenAFK": false,
           "fireWhenAFKForSeconds": 5,
