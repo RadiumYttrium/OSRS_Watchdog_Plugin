@@ -2761,7 +2761,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((B|b)arb)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^.(?=.\b([Bb])a(r)?(b)?(s)?\b(?!er(s)?)).(?=.\b([Ee])nt(s)?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -6271,7 +6271,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?:(?=.*\\b[Aa]is\\b)(?=.*\\b([Nn]orth|[Nn])\\b)|(?=.*\\b[Vv]ale\\b)(?=.*\\b([Ee]ast|[Ee])\\b))(?!.*\\b([Ss]outh|[Ss]|[Ww]est|[Ww])\\b).*",
+      "message": "^.(?=.\b[Ee]nts?\b)(?:(?=.\b[Aa]is\b)(?=.\b([Nn]orth|[Nn])\b)|(?=.\b[Vv]ale\b)(?=.\b([Ee]ast|[Ee])\b))(?!.\b([Ss]outh|[Ss]|[Ww]est|[Ww])\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
