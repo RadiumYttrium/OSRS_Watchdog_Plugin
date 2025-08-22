@@ -421,7 +421,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((((N|n)(orth)?\\s*mag(e|ic))|((R|r)ang(e|ing)?)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(nsorc)|(Nsorc)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -499,7 +499,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((S|s)(outh)?\\s*mag(e|ic))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(sorc)|(Sorc)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -811,7 +811,7 @@
     },
      {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b(((X|x)erics?\\b)?(G|g)lade)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(ne glade)|(Ne glade)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -966,6 +966,35 @@
       ]
     },
     {
+      "type": "PlayerChatAlert",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(heart e)|(Heart e)\b)(?=.*\bents?\b).*",
+      "regexEnabled": true,
+      "playerChatType": "ANY",
+      "enabled": true,
+      "name": "Heart e",
+      "debounceTime": 60000,
+      "randomNotifications": false,
+      "notifications": [
+        {
+          "type": "SoundEffect",
+          "soundID": 1516,
+          "gain": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
+          "type": "ScreenFlash",
+          "color": "#45075613",
+          "flashMode": "FLASH",
+          "flashDuration": 10,
+          "fireWhenFocused": true,
+          "fireWhenAFK": false,
+          "fireWhenAFKForSeconds": 5,
+          "delayMilliseconds": 0
+        },
+        {
           "type": "GameMessage",
           "message": "Heart e - East of Kourend Castle, yews - Xeric’s talisman 4 / Kourend tele",
           "fireWhenFocused": true,
@@ -1094,7 +1123,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((D|d)ray(nor)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(dray oak)|(Dray oak)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -1250,7 +1279,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((D|d)ray(nor)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(dray e(ast)?)|(Dray e(ast)?)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -1796,7 +1825,7 @@
     },
 {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((A|a)pe(\\batoll)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(fortis)|(Fortis)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -1874,7 +1903,7 @@
     },
 {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((A|a)pe(\\batoll)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(craft)|(Craft)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -1952,7 +1981,7 @@
     },
 {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((A|a)pe(\\batoll)?)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(ape w)|(Ape w)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -2186,7 +2215,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((((G|g)e)|((V|v)*castle)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(ge water)|(Ge water)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -2810,7 +2839,7 @@
     },
      {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((((B|b)kp)|((C|c)w)))s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(cw e)|(Cw e)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -2976,7 +3005,7 @@
       "notifications": [
         {
           "type": "SoundEffect",
-          "soundID": 3892,
+          "soundID": 1516,
           "gain": 10,
           "fireWhenFocused": true,
           "fireWhenAFK": false,
@@ -4224,7 +4253,7 @@
       "notifications": [
         {
           "type": "SoundEffect",
-          "soundID": 3892,
+          "soundID": 1516,
           "gain": 10,
           "fireWhenFocused": true,
           "fireWhenAFK": false,
@@ -4994,7 +5023,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((M|m)ta)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(mta e)|(Mta e)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -5072,7 +5101,7 @@
     },
      {
       "type": "PlayerChatAlert",
-      "message": "^.*(?=.*\\b((M|m)ta)s?(\\b|$)).*(?=.*\\b((E|e)nt)s?(\\b|$)).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(mta w)|(Mta w)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
@@ -5384,7 +5413,7 @@
     },
     {
       "type": "PlayerChatAlert",
-      "message": "(?i)^(?=.*\\b(oasis)\\b)(?=.*\\bents?\\b).*",
+      "message": "^(?!.*\b(d(ead|one)?[0-5]?|branch(es)?)\b)(?=.*\b(oasis)|(Oasis)|(ajp e(ast)?)|(Ajp e(ast)?)\b)(?=.*\bents?\b).*",
       "regexEnabled": true,
       "playerChatType": "ANY",
       "enabled": true,
